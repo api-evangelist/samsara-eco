@@ -1,7 +1,27 @@
 aid: samsara-eco
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/samsara-eco.png
 name: Samsara Eco
-description: Samsara Eco is a company surfaced as a portfolio company of dcvc and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Samsara Eco is an Australian climate-technology company pioneering enzymatic
+  recycling, a process that uses engineered enzymes to break plastics and
+  synthetic textiles down into their molecular building blocks so they can be
+  infinitely remade into new materials with no loss of quality. Spun out of the
+  Australian National University, the company recovers nylon and polyester from
+  mixed and coloured textile and plastic waste and partners with global brands
+  to build a circular materials supply chain. It is a materials-science and
+  biotech company rather than an API provider, and has no public developer,
+  API, or technical integration surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/samsara-eco/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +31,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Recycling
+- Circular Economy
+- Biotechnology
+- Sustainability
+- Materials Science
+- Climate Tech
+- Plastics
 apis: []
+common:
+- type: DomainSecurity
+  url: security/samsara-eco-domain-security.yml
+- type: Website
+  url: https://www.samsaraeco.com/
+- type: PrivacyPolicy
+  url: https://www.samsaraeco.com/privacy-policy
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
